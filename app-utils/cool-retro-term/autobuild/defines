@@ -10,4 +10,5 @@ PKGDES="A good looking terminal emulator which mimics the old cathode display"
 # ABTYPE=qtproj
 ABTYPE=self
 
-QT_SELECT=6
+NOPARALLEL=1
+# QT_SELECT=6

@@ -1,6 +1,6 @@
 abinfo "Building cool-retro-term ..."
 qmake-qt6
-make -j$(nproc)
+make -j$ABTHREADS
 
 abinfo "Installing cool-retro-term ..."
 make -C app install INSTALL_ROOT="$PKGDIR"
